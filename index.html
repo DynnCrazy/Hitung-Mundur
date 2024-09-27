@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Mundur</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="Ast/style.css">
+    <script src="Ast/script.js" defer></script>
+</head>
+<body>
+    <center>
+        <h1 id="ttlwb">Hitung Mundur</h1>
+  
+        <div id="event-selection">
+            <p id="fp">Pilih sebuah acara:</p>
+            <select id="event-select"></select>
+            <br>    
+            <p id="or">Atau pilih tanggal:</p>
+            <br>
+            <input type="date" id="custom-date">
+            <br>
+            <button id="countdown-button" onclick="startCountdown()">Mulai Hitung Mundur</button>
+        </div>
+        
+
+  <div class="countdown"></div>
+
+  <div id="timecount">
+    <div id="day"><p id="tday">00</p><p class="textintc">Hari</p></div>
+    <div id="hour"><p id="thour">00</p><p class="textintc">Jam</p></div>
+    <div id="minute"><p id="tminute">00</p><p class="textintc">Menit</p></div>
+    <div id="second"><p id="tsecond">00</p><p class="textintc">Detik</p></div>
+  </div>
+
+  <div class="status"></div>
+
+  <button id="refresh-button" style="display:none;" onclick="window.location.reload();">Refresh</button>
+
+        <a href="https://www.youtube.com/@DynCrazy" target="_blank" class="linkauthor">Web by Dyn Crazy</a>
+    </center>
+
+    <script src="Ast/script.js"></script>
+</body>
+</html>
