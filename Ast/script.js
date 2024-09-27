@@ -1,21 +1,37 @@
 let countdownInterval;
 
 const events = {
+  "Bulan Oktober": {
+    date: "2024-10-01",
+    duration: 24 * 60 * 60 * 1000
+  },
   "Sumpah Pemuda": {
-    date: "2024-09-27",
+    date: "2024-10-28",
     duration: 24 * 60 * 60 * 1000
   },
   "Halloween": {
     date: "2024-10-31",
     duration: 24 * 60 * 60 * 1000
   },
+  "Bulan November": {
+    date: "2024-11-01",
+    duration: 24 * 60 * 60 * 1000
+  },
+  "Hari Pahlawan": {
+    date: "2024-11-10",
+    duration: 24 * 60 * 60 * 1000
+  },
+  "Bulan Desember": {
+    date: "2024-12-01",
+    duration: 24 * 60 * 60 * 1000
+  },
   "Hari Ibu": {
-    date: "2024-10-15",
-    duration: 36 * 60 * 60 * 1000
+    date: "2024-12-22",
+    duration: 24 * 60 * 60 * 1000
   },
   "Natal": {
-    date: "2024-11-30",
-    duration: 90 * 60 * 60 * 1000
+    date: "2024-12-25",
+    duration: 24 * 60 * 60 * 1000
   },
   "Tahun Baru 2025": {
     date: "2025-01-01",
