@@ -21,6 +21,10 @@ const events = {
     date: "2024-11-10",
     duration: 24 * 60 * 60 * 1000
   },
+  "Hari Guru": {
+    date: "2024-11-25",
+    duration: 24 * 60 * 60 * 1000
+  },
   "Bulan Desember": {
     date: "2024-12-01",
     duration: 24 * 60 * 60 * 1000
@@ -35,6 +39,14 @@ const events = {
   },
   "Tahun Baru 2025": {
     date: "2025-01-01",
+    duration: 24 * 60 * 60 * 1000
+  },
+  "Bulan Februari": {
+    date: "2025-02-01",
+    duration: 24 * 60 * 60 * 1000
+  },
+  "Hari Valentine": {
+    date: "2025-02-14",
     duration: 24 * 60 * 60 * 1000
   },
   "Tahun 2045": {
